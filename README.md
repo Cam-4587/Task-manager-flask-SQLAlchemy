@@ -15,7 +15,7 @@ A base.html template is created and template inheritance is used to add this to 
 Two different tables where created called, 'Category' and 'Task' that were added to the database. The Category table contains a primary key to give it a unique ID  and the 'Task' table contains a Foreignkey that creates a database relationship to the category.
 
 
-CRUD functionality is impletemted for Creating, Reading, Updating and Deleting Categories and Tasks.
+CRUD functionality is implemented for Creating, Reading, Updating and Deleting Categories and Tasks.
 
 Category and Task tables are presented to the user as forms that they input to the database. Separate HTML templates for editing both Category and Task tables present the instance of either the category or the task to be edited and then re submitted. Each category and task is presented with a delete button that deletes that Category or Task. 
 
